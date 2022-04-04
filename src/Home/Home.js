@@ -13,8 +13,10 @@ import product8Img from '../Assets/biryani.jpeg'
 import product9Img from '../Assets/chicken.jpg'
 
 
+
 const Home = () => {
   return (
+     
     <div className="home">
         <div className="home_container">
             <img src={homeImg} alt="" className="home_img" />
