@@ -1,0 +1,102 @@
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;   
+    margin: 0 25px;
+    color: #F4EEEE;
+}
+
+
+.header__logoImage {
+    margin-right: 10px;
+    color: #0C4762;
+    
+}
+
+.header__logoTitle {
+   text-decoration: none;
+    border: 0;
+    color: #0C4762;
+}
+
+.header__searchbar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 10px;
+    
+ }
+ .header__searchinput {
+    height: 12px;
+    padding: 10px;
+    border: 1px solid #0C4762;
+    width: 100%;
+    border-radius: 100px;
+    margin-right: 10px;
+ }
+
+ .header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #51DACF;
+    border-radius: 50%;
+    
+ }
+
+ .header__nav{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .nav__item {  
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #0C4762;
+     }
+
+.item__lineone {
+        font-size: 10px;
+     }
+
+.item__linetwo {
+        font-size: 13px;
+        font-weight: 800;
+ }
+
+ .item__basket {
+    display: flex;
+    align-items: center;
+    color: #F4EEEE;
+    margin-right: 50px;
+    margin-left: 10px; 
+
+ }
+
+
+ .nav__basketCount{
+     margin-right: 10px;
+     margin-left: 10px;
+ }
+
+ .cart{
+   color: #F4EEEE;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #F4EEEE;
+ }
+
+ .nav_cart{
+     color: #F4EEEE;
+ }
