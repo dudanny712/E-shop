@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-This is a basic E-Commerce react app with just frontend.
+This is a basic E-Commerce react app with just frontend. With Login page and working Cart.
 
 ## Available Scripts
 
